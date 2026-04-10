@@ -108,7 +108,7 @@ export default function AuthForm() {
       </Button>
 
       <p className="text-xs font-inter text-center text-muted-foreground">
-        We'll email you a secure sign-in link. No password needed.
+        We&apos;ll email you a secure sign-in link. No password needed.
       </p>
     </form>
   );

@@ -20,10 +20,10 @@ export default function EyeColorStep({ value, onChange }: Props) {
     <div className="space-y-5">
       <div className="text-center space-y-2">
         <h2 className="font-playfair text-2xl sm:text-3xl font-bold text-foreground">
-          What's your eye colour?
+          What&apos;s your eye colour?
         </h2>
         <p className="text-sm font-inter text-muted-foreground">
-          We'll suggest eyeshadow shades that make your eyes pop.
+          We&apos;ll suggest eyeshadow shades that make your eyes pop.
         </p>
       </div>
 

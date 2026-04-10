@@ -19,7 +19,7 @@ export default function SkinToneStep({ value, onChange }: Props) {
     <div className="space-y-5">
       <div className="text-center space-y-2">
         <h2 className="font-playfair text-2xl sm:text-3xl font-bold text-foreground">
-          What's your skin tone?
+          What&apos;s your skin tone?
         </h2>
         <p className="text-sm font-inter text-muted-foreground">
           Choose the closest match to your natural skin tone.

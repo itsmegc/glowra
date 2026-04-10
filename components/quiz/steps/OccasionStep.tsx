@@ -49,10 +49,10 @@ export default function OccasionStep({ value, onChange }: Props) {
     <div className="space-y-5">
       <div className="text-center space-y-2">
         <h2 className="font-playfair text-2xl sm:text-3xl font-bold text-foreground">
-          What's your main occasion?
+          What&apos;s your main occasion?
         </h2>
         <p className="text-sm font-inter text-muted-foreground">
-          Pick the vibe you're going for. You can explore all looks afterward.
+          Pick the vibe you&apos;re going for. You can explore all looks afterward.
         </p>
       </div>
 

@@ -49,7 +49,7 @@ export default function SkinTypeStep({ value, onChange }: Props) {
     <div className="space-y-5">
       <div className="text-center space-y-2">
         <h2 className="font-playfair text-2xl sm:text-3xl font-bold text-foreground">
-          What's your skin type?
+          What&apos;s your skin type?
         </h2>
         <p className="text-sm font-inter text-muted-foreground">
           This helps us recommend the right foundation and primer formulas.

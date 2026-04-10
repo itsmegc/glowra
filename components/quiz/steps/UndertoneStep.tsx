@@ -41,7 +41,7 @@ export default function UndertoneStep({ value, onChange }: Props) {
     <div className="space-y-5">
       <div className="text-center space-y-2">
         <h2 className="font-playfair text-2xl sm:text-3xl font-bold text-foreground">
-          What's your undertone?
+          What&apos;s your undertone?
         </h2>
         <p className="text-sm font-inter text-muted-foreground">
           Check the inside of your wrist — what colour are your veins?
