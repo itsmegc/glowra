@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 30 50% 98%;
+    --foreground: 0 0% 15%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 15%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 15%;
+    --primary: 349 48% 53%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 14 44% 75%;
+    --secondary-foreground: 0 0% 15%;
+    --muted: 30 30% 95%;
+    --muted-foreground: 0 0% 45%;
+    --accent: 14 44% 75%;
+    --accent-foreground: 0 0% 15%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 14 20% 88%;
+    --input: 14 20% 88%;
+    --ring: 349 48% 53%;
+    --radius: 0.75rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-ivory text-foreground font-inter antialiased;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-playfair;
+  }
+}
+
+@layer components {
+  .glowra-card {
+    @apply bg-white rounded-2xl shadow-card border border-blush-100 p-6;
+  }
+
+  .btn-primary {
+    @apply bg-rose-accent text-white font-inter font-semibold px-8 py-3.5 rounded-full
+           shadow-soft hover:bg-rose-700 active:scale-[0.98] transition-all duration-200;
+  }
+
+  .btn-secondary {
+    @apply bg-blush-200 text-rose-700 font-inter font-semibold px-8 py-3.5 rounded-full
+           hover:bg-blush-300 active:scale-[0.98] transition-all duration-200;
+  }
+
+  .quiz-option {
+    @apply flex flex-col items-center justify-center gap-2 p-4 rounded-2xl border-2 border-blush-100
+           bg-white cursor-pointer transition-all duration-200 hover:border-rose-accent hover:shadow-soft
+           focus-within:border-rose-accent;
+  }
+
+  .quiz-option.selected {
+    @apply border-rose-accent bg-blush-50 shadow-soft;
+  }
+
+  .swatch {
+    @apply w-8 h-8 rounded-full shadow-sm border border-white ring-1 ring-blush-200;
+  }
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #FAF7F4; }
+::-webkit-scrollbar-thumb { background: #F7D6D0; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #C4566A; }
+
+/* Smooth scroll */
+html { scroll-behavior: smooth; }
